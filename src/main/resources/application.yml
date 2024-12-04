@@ -1,0 +1,8 @@
+spring:
+ application:
+   name: oracleconnectproject
+ datasource:
+   url: jdbc:oracle:thin:@//localhost:1521/FREE
+   username: SYS as SYSDBA
+   password: oracle
+   driver-class-name: oracle.jdbc.OracleDriver
